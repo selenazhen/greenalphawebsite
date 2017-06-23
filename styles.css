@@ -1,0 +1,223 @@
+@import url("webfonts/Orator_STD/stylesheet.css");
+@import url("webfonts/JoseFinSans/stylesheet.css");
+@import url("webfonts/Cuprum/stylesheet.css");
+@import url("webfonts/PT_Sans_Narrow/stylesheet.css");
+body {
+	font-family: "Orator STD";
+}
+.backgroundimg {
+	width:100%;
+	height:auto;
+	position: static;
+	top: 0;
+	
+}
+
+.backgroundimgstatic {
+	width:100%;
+	height:auto;
+	position: static;
+}
+#banner  {
+	background-color: #efeeed;
+	position:fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	height: 73px;	
+	z-index: 10;
+}
+#wrapper  {
+	top: 5%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	clear: left;
+}
+.wrapper  {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	vertical-align: top;
+}
+
+.logo img:last-child{display:none}
+.logo:hover img:first-child{display:none}
+.logo:hover img:last-child{display:inline-block}
+.logoimg  {
+	width: 40px;
+	padding: 0;
+	margin:0;
+}
+#homepagecontent {
+	margin-top: 50px;
+	position: static;
+	text-align: center;
+	font-family: "Orator STD";
+	float: left;
+	z-index: 1;
+}
+#mapcontent {
+	margin-top: 50px;
+	text-align: center;
+	font-family: "Orator STD";
+}
+#locationscontent {
+	float: left;
+	margin-top: 20px;
+}
+.iconimg {
+	width: 100%;
+	height: auto;
+}
+table  {
+	margin-top:100px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#paragraphcontent {
+	text-align: left;
+	width: auto;
+	height: auto;
+	position: static;
+	font-family: "PT Sans Narrow";
+	margin-top: 50px;
+	float: right;
+	margin-left: 325px;
+}
+
+#navigation {
+	margin-left: 0px;
+	padding-left: 0px;
+	width: 325px;
+	height:100%;
+	position: absolute;
+}
+p.menu {
+	font-family: "Orator STD";
+	font-size: 13px;
+	font-weight: normal;
+	text-align: left;
+	margin-left:40px;
+	margin-top:0;
+	margin-bottom:3px;
+}
+h3 {
+	font-family: "Orator STD";
+	font-size: 13px;
+	font-weight: normal;
+	position: relative;
+	z-index:5;
+}
+
+a:link {
+	text-decoration:none;
+	color:#2d2d2a;
+}
+a:visited {
+	text-decoration:none;
+	color:#2d2d2a;
+}
+a:hover {
+	text-decoration:none;
+	color:#7A7A77;
+}
+a:active {
+	text-decoration:none;
+	color:#7A7A77;
+}
+
+h1 {
+	font-family: "PT Sans Narrow";
+	font-size: 25px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+p {
+	font-family: "PT Sans Narrow";
+	font-size: 15px;
+	font-weight: normal;
+}
+
+#form {
+	font-family: "PT Sans Narrow";
+}
+
+#usamap {
+	display: inline;  
+	width: 1000px;
+	margin-bottom: 8%;
+	margin-left: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#indianamap {
+	display: inline; 
+	float: left; 
+	margin-top: 6%; 
+	width: 500px;
+	padding-right: 6%;
+}
+
+#listoflocations {
+	margintop: 6%;
+	text-align:left;
+}
+
+#thatlovelyimg {
+	left: 325px;
+	height: 400px;
+	width: 600px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.thumbnail  {
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline;
+	text-align: center;
+}
+.rentlist {
+	text-decoration: none;
+	list-style-type: none;
+	list-style: none;
+}
+
+.family1 {
+	width:100%;
+	height: auto;
+	margin-bottom: 90px;
+		
+}
+.familycircles {
+	width:20%;
+	height: auto;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 90px;
+}
+#footer {
+	font-family: "Orator STD";
+	width: auto;
+	height: 50px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	text-align:center;
+	clear:both;
+}
+
+	
