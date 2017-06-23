@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("img/landingpagebg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form {
+  margin: 0px;
+  margin-bottom: 50px;
+  /* Clearfix */
+}
+#form h1 {
+  text-align: center;
+  color: #5c3f41;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2em;
+}
+#form form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+#form form input,
+#form form textarea {
+  border: 1;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+  resize: none;
+}
+#form form #input-submit {
+  color: white;
+  background: #5c3f41;
+  cursor: pointer;
+  border-style: none;
+}
+#form form textarea {
+  height: 120px;
+  border: 1;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+  resize: none;
+}
+#form .half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+#form .right {
+  width: 50%;
+}
+#form .left {
+  margin-right: 2%;
+}
+@media (max-width: 480px) {
+  #form .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+#form .cf:before,
+#form .cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+#form .cf:after {
+  clear: both;
+}

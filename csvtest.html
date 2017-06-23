@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body onload="javascript:testFunction()">
+
+<table hidden>
+<tr>
+  <th> hello1</th>
+  <th> hello2</th>
+</tr>
+<tr>
+  <td> data1</td>
+  <td> data2</td>
+</tr>
+<tr>
+  <td> data3</td>
+  <td> data4</td>
+</tr>
+<tr>
+  <td> data5</td>
+  <td> data6</td>
+</tr>
+<tr>
+  <td> data7</td>
+  <td> data8</td>
+</tr>
+</table>
+
+<p>Is this available? <span id="demo"></span></p>
+<p>Is this available? <span id="demo2"></span></p>
+<p>Is this available? <span id="demo3"></span></p>
+
+<script type="text/javascript">
+function testFunction() {
+    var x = document.getElementsByTagName("td")[3].textContent;
+    document.getElementById("demo").innerHTML = x; 
+    var y = document.getElementsByTagName("td")[4].textContent;
+    document.getElementById("demo2").innerHTML = y; 
+    var y = document.getElementsByTagName("td")[7].textContent;
+    document.getElementById("demo3").innerHTML = y; 
+}
+</script>
+
+</body>
+</html>
